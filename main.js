@@ -16,9 +16,10 @@ function send (){
     if (Input.value.trim()) {
         data.push(input.value.trim());
         input.value = "";
-    } else {
-        
-    }
+    } 
+}
+function edit(i){
+
 }
 
 
