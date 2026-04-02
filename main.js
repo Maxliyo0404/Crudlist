@@ -17,7 +17,7 @@ function send (){
         data.push(input.value.trim());
         input.value = ""
     } else {
-        alert("")
+        alert("Please type it again")
     }
 }
 
