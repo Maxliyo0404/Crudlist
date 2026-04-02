@@ -6,7 +6,7 @@
         <li data-index="${i}">
             <span class="item-text">${item}</span>
             <div>
-                <button onclick="editItem(${i})">🛠 Edit</button>
+                <button onclick="editItem(${i})">✏️Edit</button>
                 <button onclick="deleteItem(${i})">🗑 Delete</button>
             </div>
         </li>
