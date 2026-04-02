@@ -1,7 +1,7 @@
  let data = [];
 
 function crudList (){
-    if (event) event = 
+    if (event) event.preventDefault();
     list.innerHTML = data.map((item, i) =>
         <li> 
             ${item}
