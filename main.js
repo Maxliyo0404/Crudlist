@@ -1,7 +1,7 @@
  let data = [];
 
        function crudList() {
-    const list = document.getElementById('itemList');
+    const list = document.getElementById('List');
     list.innerHTML = data.map((item, i) => `
         <li data-index="${i}">
             <span class="item-text">${item}</span>
