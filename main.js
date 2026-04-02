@@ -9,10 +9,16 @@ function crudList (){
 //                 <button onclick="delete(${i})">🗑Delete</button>
             </div>
             </li>
-    )
+    ).join("");
     }
 
-
+function send (){
+    if (Input.value.trim()) {
+        
+    } else {
+        
+    }
+}
 
 
 
