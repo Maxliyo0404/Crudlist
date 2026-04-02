@@ -24,7 +24,7 @@ function send (){
 }
 function edit(){
   let new = +prompt("Tahrirlash ", data[i]);
-  if (new && new.trim)
+  if (new && new.trim()) data[i] = new.trim();
 }
 
 
