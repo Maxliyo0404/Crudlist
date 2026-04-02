@@ -23,7 +23,7 @@ function send (){
      crudList();
 }
 function edit(){
-  let new = +prompt("")
+  let new = +prompt("Tahrirlash ", data[i]);
 }
 
 
