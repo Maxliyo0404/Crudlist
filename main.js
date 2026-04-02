@@ -15,12 +15,10 @@ function crudList (){
 function send (){
     if (Input.value.trim()) {
         data.push(input.value.trim());
-        input.value = "";
-        crudList();
-    } 
-}
-function edit(i){
-  let 
+        input.value = ""
+    } else {
+        alert("")
+    }
 }
 
 
