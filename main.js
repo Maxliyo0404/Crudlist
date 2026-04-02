@@ -1,10 +1,10 @@
  let data = [];
 
 function crudList (){
-    crudList.innerHTML = data.map((item, i)) =>
-        
+    crudList.innerHTML = data.map((item, i)  =>
         <li> ${item}
-}
+    )
+    }
 
 
 
