@@ -2,6 +2,8 @@
 
 function crudList (){
     crudList.innerHTML = data.map((item, i)) =>
+        
+        <li> ${item}
 }
 
 
