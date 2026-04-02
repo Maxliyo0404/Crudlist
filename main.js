@@ -23,7 +23,7 @@ function send (){
      crudList();
 }
 function edit(i){
-  let new = prompt("Tahrirlash ", data[i]);
+  let new = prompt("Tahrirlash: ", data[i]);
   if (new && new.trim()) data[i] = new.trim();
       }else if(newValue !== null){
           alert('Item cannot be empty!');
