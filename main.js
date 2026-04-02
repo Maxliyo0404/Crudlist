@@ -22,8 +22,8 @@ function send (){
     }
      crudList();
 }
-function edit(){
-  let new = +prompt("Tahrirlash ", data[i]);
+function edit(i){
+  let new = prompt("Tahrirlash ", data[i]);
   if (new && new.trim()) data[i] = new.trim();
    crudList();
       }else if(newValue !== null){
