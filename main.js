@@ -13,8 +13,8 @@
     `).join("");
 }
 
-    function addItem() {
-        const input = document.getElementById('itemInput');
+    function Send() {
+        const input = document.getElementById('Input');
         if (input.value.trim()) {
             data.push(input.value.trim());
             input.value = "";
