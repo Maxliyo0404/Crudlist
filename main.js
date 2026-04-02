@@ -1,6 +1,7 @@
  let data = [];
 
 function crudList (){
+    if (event) event = 
     list.innerHTML = data.map((item, i) =>
         <li> 
             ${item}
@@ -20,6 +21,9 @@ function send (){
         alert("Please type it again")
     }
      crudList();
+}
+function edit(){
+
 }
 
 
