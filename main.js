@@ -5,9 +5,10 @@ function crudList (){
         <li> 
             ${item}
             <div>
-                  <button onclick="edit(${i})">✏️Edit</button>
+                   <button onclick="edit(${i})">✏️Edit</button>
 //                 <button onclick="delete(${i})">🗑Delete</button>
             </div>
+            </li>
     )
     }
 
