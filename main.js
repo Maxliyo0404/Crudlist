@@ -1,7 +1,7 @@
  let data = [];
 
 function crudList (){
-    
+    crudList.innerHTML = data.map((item, i)) =>
 }
 
 
