@@ -19,6 +19,7 @@ function send (){
     } else {
         alert("Please type it again")
     }
+     crudList();
 }
 
 
