@@ -1,8 +1,13 @@
  let data = [];
 
 function crudList (){
-    crudList.innerHTML = data.map((item, i)  =>
-        <li> ${item}
+    list.innerHTML = data.map((item, i) =>
+        <li> 
+            ${item}
+            <div>
+                  <button onclick="edit(${i})">✏️Edit</button>
+//                 <button onclick="delet(${i})">🗑 Delete</button>
+            </div>
     )
     }
 
